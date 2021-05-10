@@ -18,12 +18,18 @@ print(array)
 #[5,6],
 #]
 
+#
+
+
 array = np.array(([[1,2],[3,4],[5,6]]))
 print(array.shape) #result: (3,2) means 3rows 2cols
 print(array[0]) #print row1
 print(array[1]) #print row2
 array[0] = -1   #grant -1 to [1,2]
 print(array[0]) #print row1
+
+
+
 
 #Multi-D array
 Multi_array = np.array([[1,2,3],[4,5,6],[7,8,9]])
