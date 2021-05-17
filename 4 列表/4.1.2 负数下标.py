@@ -1,4 +1,5 @@
 spam = ['car', 'bat', 'rat', 'elephant']
+print(spam[4]) #Index Error
 
 print(spam[-1]) #倒数第一个
 
