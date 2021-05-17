@@ -11,3 +11,4 @@ print('color' not in spam.keys())
 
 print('name' in spam) #不指明是keys还是values的时候，默认是keys
 
+
